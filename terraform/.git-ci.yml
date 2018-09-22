@@ -1,0 +1,34 @@
+---
+image:
+  name: hashicorp/terraform:light
+  entrypoint:
+    - '/usr/bin/env'
+    - 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+
+stages:
+  - plan
+  - apply
+
+cache:
+  paths:
+    - .terraform
+  key: "$CI_BUILD_REPO"
+
+plan:
+  stage: plan
+  script:
+    - terraform init -backend=true -get=true -input=false
+    - terraform plan -out planfile
+  when: always
+  artifacts:
+    paths:
+      - planfile
+
+apply:
+  stage: apply
+  script:
+    - terraform init -backend=true -get=true -input=false
+    - terraform apply
+  when: manual
+  dependencies:
+   - plan
