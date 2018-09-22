@@ -7,3 +7,14 @@
 
 # .tfvars files
 *.tfvars
+
+.vagrant
+roles/external
+test.pem
+set-aws-access-keys.sh
+ec2-provisioning.retry
+terraform/secrets.auto.tfvars
+terraform/*.tfvars
+terraform/*.tfstate
+terraform/*.tfstate.*
+site.retry
