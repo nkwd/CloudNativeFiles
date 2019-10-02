@@ -4,24 +4,29 @@
     "autoStart": true,
     "lazyLoadTabs": false,
     "websites": [
+     {
+        "url": "https://service.au.sumologic.com/ui/dashboard.html?k=xFHyRHkJBAlo4pOAk8kwEVkaY686DUeiPVDXPalwgfn7AiSamZS9KvnSI7NS&f=&t=r&filters=backend*eq*null**path_root*eq*null**_sourcehost*eq*null**client*eq*aerotechhelicopters**domain*eq*aerotechhelicopters.airmaestro.com.au**URL_root*eq*aerotechhelicopters.airmaestro.com.au&timerange=1847434,1847435*eq*1569976512602~1569980112602**1847430,1847427,1847437*eq*1569976512603~1569980112603**1847490*eq*1569976512604~1569980112604**1847433,1847424*eq*1569969312604~1569980112604**1847425*eq*1569969312606~1569980112606**1847431,1847436,1847428,1847470*eq*1569969312607~1569980112607**1847469*eq*1569969312608~1569980112608",
+        "duration": 60,
+        "tabReloadIntervalSeconds": 0
+    },
     {
         "url": "https://service.au.sumologic.com/ui/dashboard.html?k=l7MWWTQnlSce60URV0V9hp20ZRot6Jgfpvpiv8YqqHXUpakHG30BKl9wBWY7&f=&t=r&filters=path_root*eq*null**domain*eq*null**_sourcehost*eq*null**backend*eq*null",
-        "duration": 60,
+        "duration": 40,
         "tabReloadIntervalSeconds": 0
     },
     {
         "url": "https://service.au.sumologic.com/ui/dashboard.html?k=7tNUql8vIg7Hq4QIThIqmlQ7XqAOlLQ9k2PJLaWGlHJupnZbNuZcxQ9z7jrE&f=&t=r&filters=_sourcehost*eq*%5C***pid*eq*null**user*eq*null",
-        "duration": 60,
+        "duration": 30,
         "tabReloadIntervalSeconds": 0
     },
     {
         "url": "https://service.au.sumologic.com/ui/dashboard.html?k=KBK14bIavqve71o0MctGQgopjHWYYMwun0LxsTsd4g63TC2O0FRi0BMVmt0R&f=&t=r",
-        "duration": 60,
+        "duration": 40,
         "tabReloadIntervalSeconds": 0
     },
     {
         "url": "https://service.au.sumologic.com/ui/dashboard.html?k=46qRgDqpTSccUOVKlqGXR0kbMyv2Qi0tnV8Ylx1FMS3dbkf7WRAyh2ZhG3DT&f=&t=r",
-        "duration": 60,
+        "duration": 30,
         "tabReloadIntervalSeconds": 0
     }
     ]
