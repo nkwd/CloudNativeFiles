@@ -4,11 +4,6 @@
     "autoStart": true,
     "lazyLoadTabs": false,
     "websites": [
-     {
-        "url": "https://service.au.sumologic.com/ui/dashboard.html?k=Av9HOJZk98gMoBOhECbt50mAttqQMXMoSWgz7UA4tCjpapSRhrSbbWyiP3KY&f=&t=r",
-        "duration": 60,
-        "tabReloadIntervalSeconds": 0
-    },
     {
         "url": "https://service.au.sumologic.com/ui/dashboard.html?k=l7MWWTQnlSce60URV0V9hp20ZRot6Jgfpvpiv8YqqHXUpakHG30BKl9wBWY7&f=&t=r&filters=path_root*eq*null**domain*eq*null**_sourcehost*eq*null**backend*eq*null",
         "duration": 40,
